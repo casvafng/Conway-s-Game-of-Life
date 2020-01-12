@@ -1,0 +1,56 @@
+#start,
+#clear,
+#random,
+#how {     
+float:left;
+width:25%;
+height:23px;
+margin:auto;
+margin-bottom:5px;
+background: #9d75bd;
+}
+
+body {
+padding: 20px;
+background: #ffffff;
+}
+
+#gridContainer {
+padding-bottom: 10px;
+}
+
+table {
+background-color: rgb(255, 255, 255);
+border-spacing: 0;
+}
+
+td {
+border: 1px solid #9d75bd;
+width: 10px;
+height: 10px;
+}
+
+h1 {
+text-align: center;
+color: #8b48c2; 
+}
+
+p {
+text-align: center;
+color: #7b1cc9;
+font-size: 15px;
+}
+
+a {
+text-align: center;
+color: #7b1cc9;
+font-size: 15px;
+}
+
+td.dead {
+background-color: #ffffff;
+}
+
+td.live {
+background-color: #8b48c2;  
+}

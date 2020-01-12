@@ -1,0 +1,84 @@
+<head>
+    <meta charset = "UTF-8" />
+    <title>The Game of Life</title>
+    <link rel="stylesheet" href="golcss.css">    
+</head>
+
+<body>
+<h1>Conway's Game of Life </h1>
+<p>[ RULES ]</p>
+<form>
+    <p>" Any live cell with more than <select id="over">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">0</option>
+    </select>live neighbours dies, as if by overpopulation.</p>
+    <p>Any live cell with fewer than <select id="under"> 
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">0</option>
+    </select>live neighbours dies, as if by underpopulation.</p>
+    <p>Any dead cell with exactly <select id="born"> 
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">0</option>
+    </select>live neighbours becomes a live cell, as if by reproduction.</p>
+    <p>Any live cell with <select id="live1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">0</option>
+        </select>
+        or
+        <select id="live2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">0</option>
+            </select>
+            live neighbours lives on to the next generation. "</p>
+
+    
+    </form>
+ <p> See the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" class="button">Original Game and Rules</a> here! </p>
+<div class="controls">
+<input type="button" id="start" value="Start and Pause" onclick="startButton();"/>
+<input type="button" id="clear" value="Clear" onclick="clearButton();"/>
+<input type="button" id="random" value="Sample" onclick="randomButton();"/>
+<input type="button" id="how" value="How to Play" onclick="howToPlay();"/>
+
+</div>
+    
+<div id="container">
+
+<script src="goljs.js"></script>
+    
+</body>
