@@ -1,4 +1,4 @@
-// This is the source code for FIT1-Final Project by Tung Nguyen, Duy Tran, and Moumini Banga.
+// This is the source code for FIT1-Final Project by Tung Nguyen, Duy Tran, and Moumini Banga. Jan, 2020.
 var rows = 67;
 var columns = 120;
 
